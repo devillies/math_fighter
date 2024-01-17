@@ -1,23 +1,23 @@
 import { AUTO, Scale, Game } from 'phaser'
-import AmongUsScene from './scenes/AmongUsScene'
+import MathFighterScene from './scenes/MathFighterScene'
 
 const config = {
 	type: AUTO,
 	backgroundColor: '#32A5E7',
 	scale: {
-		width: 1920,
-		height: 1080,
+		width: 480,
+		height: 640,
 		mode: Scale.FIT,
 		autoCenter: Scale.CENTER_BOTH,
 	},
 	physics: {
 		default: 'arcade',
 		arcade: {
-			gravity: { y: -1 },
+			gravity: { y: 200 },
 			debug: false,
 		},
 	},
-	scene: [AmongUsScene],
+	scene: [MathFighterScene],
 }
 
 /* eslint-disable-next-line */
