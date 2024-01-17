@@ -4,11 +4,14 @@
 
 <h2 align="center">
   <br>
-  <a href="https://github.com/photonstorm/phaser"><img src="https://phaser.io/images/img.png" alt="header" width="600"/></a>
-  <p>
+  <a href="https://github.com/photonstorm/phaser"> <p>
   Phaserjs 3
   </p>
+  </a>
+  
+  <img src="./public/images/warrior1.png" width="600">
+  <p>MATH FIGHTER </p>
   <p>
-i have changed the phaser file structure so now the config is in indexjs  
+Using Phaser Engine To create a MATH FIGHTER GAME
   </p>
 </h2>
